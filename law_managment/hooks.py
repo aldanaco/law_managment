@@ -219,3 +219,15 @@ app_license = "mit"
 # auth_hooks = [
 #	"law_managment.auth.validate"
 # ]
+
+fixtures = [
+    {"dt": "DocType", "filters": [
+        [
+            "name", "in", [
+                "testing",
+                "test"
+            ]
+        ]
+    ]},
+]
+
