@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name_ar",
+ "creation": "2023-12-29 23:16:30.489233",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_ar",
+  "column_break_bkdn",
+  "name_en",
+  "column_break_qzdc",
+  "\u0627\u064a\u0627\u0645_\u0627\u0644\u062a\u0646\u0628\u064a\u0647",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_ar",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0642\u0636\u064a\u0629 \u0628\u0627\u0644\u0639\u0631\u0628\u064a",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_bkdn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_en",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0642\u0636\u064a\u0629 \u0628\u0627\u0644\u0627\u0646\u0643\u0644\u064a\u0632\u064a ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qzdc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u0627\u064a\u0627\u0645_\u0627\u0644\u062a\u0646\u0628\u064a\u0647",
+   "fieldtype": "Int",
+   "label": "\u0627\u064a\u0627\u0645 \u0627\u0644\u062a\u0646\u0628\u064a\u0647"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "case type",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-30 20:44:35.070170",
+ "modified_by": "Administrator",
+ "module": "law managment",
+ "name": "case type",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

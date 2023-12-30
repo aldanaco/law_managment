@@ -1,0 +1,719 @@
+{
+ "actions": [],
+ "autoname": "format:CUST-{MM}-{YYYY}-{####}",
+ "creation": "2023-12-04 10:39:37.442412",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_details_section",
+  "customer_type",
+  "column_break_dxww",
+  "company_details_section",
+  "company_name",
+  "trade_name",
+  "sector",
+  "column_break_ohxt",
+  "establish_date",
+  "company_address_section",
+  "country",
+  "province",
+  "company_city",
+  "column_break_idep",
+  "district_number",
+  "street_number",
+  "building_number",
+  "company_financial_details_section",
+  "capital",
+  "company_income_source",
+  "column_break_vyzp",
+  "taxes",
+  "existing",
+  "financial_records_section",
+  "latest_financial_records",
+  "company_legal_info_section",
+  "company_registration_number",
+  "issue_date",
+  "\u0627\u0644\u0627\u0633\u0645_\u0627\u0644\u062b\u0644\u0627\u062b\u064a_\u0644\u0645\u062f\u0642\u0642_\u062d\u0633\u0627\u0628\u0627\u062a_\u0627\u0644\u0634\u0631\u0643\u0647",
+  "column_break_nrbw",
+  "tax_number",
+  "business_license",
+  "country_of_origin",
+  "personal_info_section",
+  "first_name",
+  "father_name",
+  "grandfather_name",
+  "fourth_name",
+  "family_name",
+  "full_name",
+  "work_address",
+  "column_break_qxrr",
+  "mother_full_name",
+  "martial_status",
+  "gender",
+  "partner_name",
+  "employment_status",
+  "employment_type",
+  "nationality",
+  "date_of_birth",
+  "contact_info_section",
+  "phone_number",
+  "secondary_phone_number",
+  "email_copy",
+  "column_break_lrme",
+  "education_section",
+  "academic_achievement",
+  "email",
+  "other_academic_details",
+  "column_break_rxfe",
+  "financial_section",
+  "income_source",
+  "column_break_mumo",
+  "other_income_source",
+  "address_info_section",
+  "residence_type",
+  "provence",
+  "city",
+  "column_break_hjmx",
+  "district",
+  "state",
+  "house_no",
+  "legal_info_section",
+  "civil_id_number",
+  "civil_id_issue_date",
+  "civil_id_expire_date",
+  "gender_certificate_id",
+  "gender_certificate_issue_date",
+  "gender_certificate_expire_date",
+  "\u0647\u0648\u064a\u0647_\u0627\u0644\u0627\u062d\u0648\u0627\u0644",
+  "column_break_dsqv",
+  "national_id_number",
+  "national_id_issue_date",
+  "national_id_expire_date",
+  "\u0627\u0644\u0628\u0637\u0627\u0642\u0647_\u0627\u0644\u0645\u0648\u062d\u062f\u0647",
+  "column_break_avsr",
+  "passport_id",
+  "passport_id_issue_date",
+  "passport_id_expire_date",
+  "\u0627\u0644\u062c\u0648\u0627\u0632",
+  "section_break_loss",
+  "company_bank_name",
+  "amount_of_loans_and_money_taken_from_the_bank",
+  "amount_of_yearly_transactions",
+  "column_break_kica",
+  "company_first_transaction_amount",
+  "company_first_transaction_date",
+  "nature_of_work_with_the_bank",
+  "bank_info_section",
+  "bank_name",
+  "money_source",
+  "transaction_amount",
+  "first_transaction_date",
+  "column_break_pgpq"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0632\u0628\u0648\u0646"
+  },
+  {
+   "bold": 1,
+   "fieldname": "customer_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0632\u0628\u0648\u0646",
+   "options": "\n\u0641\u0631\u062f\n\u0634\u0631\u0643\u0647",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dxww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0634\u0631\u0643\u0647\"",
+   "fieldname": "company_details_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0634\u0631\u0643\u0647"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0634\u0631\u0643\u0647"
+  },
+  {
+   "fieldname": "trade_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u062a\u062c\u0627\u0631\u064a"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0642\u0637\u0627\u0639"
+  },
+  {
+   "fieldname": "column_break_ohxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "establish_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062a\u0622\u0633\u064a\u0633"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0634\u0631\u0643\u0647\"",
+   "fieldname": "company_address_section",
+   "fieldtype": "Section Break",
+   "label": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0634\u0631\u0643\u0647"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0628\u0644\u062f"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0645\u062d\u0627\u0641\u0638\u0647"
+  },
+  {
+   "fieldname": "company_city",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0645\u062f\u064a\u0646\u0647"
+  },
+  {
+   "fieldname": "column_break_idep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "district_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0645\u062d\u0644\u0647"
+  },
+  {
+   "fieldname": "street_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0632\u0642\u0627\u0642"
+  },
+  {
+   "fieldname": "building_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0628\u0646\u0627\u064a\u0647"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0634\u0631\u0643\u0647\"",
+   "fieldname": "company_financial_details_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0634\u0631\u0643\u0647 \u0627\u0644\u0645\u0627\u0644\u064a\u0647"
+  },
+  {
+   "fieldname": "capital",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0623\u0633 \u0627\u0644\u0645\u0627\u0644"
+  },
+  {
+   "fieldname": "company_income_source",
+   "fieldtype": "Autocomplete",
+   "label": "\u0645\u0635\u062f\u0631 \u0627\u0644\u062f\u062e\u0644"
+  },
+  {
+   "fieldname": "column_break_vyzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taxes",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0636\u0631\u0627\u0626\u0628"
+  },
+  {
+   "fieldname": "existing",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0645\u0648\u062c\u0648\u062f\u0627\u062a"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0634\u0631\u0643\u0647\"",
+   "fieldname": "financial_records_section",
+   "fieldtype": "Section Break",
+   "label": " \u0627\u0644\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0629"
+  },
+  {
+   "fieldname": "latest_financial_records",
+   "fieldtype": "Attach",
+   "label": "\u0623\u062d\u062f\u062b \u0627\u0644\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0629"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0634\u0631\u0643\u0647\"",
+   "fieldname": "company_legal_info_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0634\u0631\u0643\u0647 \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0647"
+  },
+  {
+   "fieldname": "company_registration_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0634\u0631\u0643\u0647"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0635\u062f\u0627\u0631"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0627\u0633\u0645_\u0627\u0644\u062b\u0644\u0627\u062b\u064a_\u0644\u0645\u062f\u0642\u0642_\u062d\u0633\u0627\u0628\u0627\u062a_\u0627\u0644\u0634\u0631\u0643\u0647",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u062b\u0644\u0627\u062b\u064a \u0644\u0645\u062f\u0642\u0642 \u062d\u0633\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u0631\u0643\u0647"
+  },
+  {
+   "fieldname": "column_break_nrbw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tax_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0636\u0631\u064a\u0628\u064a"
+  },
+  {
+   "fieldname": "business_license",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u062e\u0635\u0647 \u0627\u0644\u0639\u0645\u0644"
+  },
+  {
+   "fieldname": "country_of_origin",
+   "fieldtype": "Autocomplete",
+   "label": "\u0628\u0644\u062f \u0627\u0644\u0645\u0646\u0634\u0625"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0641\u0631\u062f\"",
+   "fieldname": "personal_info_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0634\u062e\u0635\u064a\u0647"
+  },
+  {
+   "bold": 1,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0627\u0648\u0644"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0627\u0628"
+  },
+  {
+   "fieldname": "grandfather_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u062c\u062f"
+  },
+  {
+   "fieldname": "fourth_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0627\u0628\u0639"
+  },
+  {
+   "fieldname": "family_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0639\u0627\u0626\u0644\u0647 \u0627\u0648 \u0627\u0644\u0639\u0634\u064a\u0631\u0647"
+  },
+  {
+   "bold": 1,
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0643\u0627\u0645\u0644"
+  },
+  {
+   "bold": 1,
+   "fieldname": "work_address",
+   "fieldtype": "Data",
+   "label": "\u0645\u0648\u0642\u0639 \u0627\u0644\u0639\u0645\u0644"
+  },
+  {
+   "fieldname": "column_break_qxrr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mother_full_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0627\u0645 \u0627\u0644\u062b\u0644\u0627\u062b\u064a"
+  },
+  {
+   "bold": 1,
+   "fieldname": "martial_status",
+   "fieldtype": "Select",
+   "label": "\u0627\u0644\u062d\u0627\u0644\u0647 \u0627\u0644\u0632\u0648\u062c\u064a\u0647",
+   "options": "\n\u0627\u0639\u0632\u0628\n\u0645\u062a\u0632\u0648\u062c\n\u0645\u0637\u0644\u0642/\u0645\u0637\u0644\u0642\u0647"
+  },
+  {
+   "bold": 1,
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "depends_on": "eval:doc.martial_status==\"\u0645\u062a\u0632\u0648\u062c\"",
+   "fieldname": "partner_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0632\u0648\u062c/\u0627\u0644\u0632\u0648\u062c\u0647"
+  },
+  {
+   "bold": 1,
+   "fieldname": "employment_status",
+   "fieldtype": "Select",
+   "label": "\u0627\u0644\u062d\u0627\u0644\u0647 \u0627\u0644\u0648\u0638\u064a\u0641\u064a\u0647",
+   "options": "\nStudent\nPrivate Sector Employment\nRetired\nPolitical position\nMilitary\nOwner\nOther"
+  },
+  {
+   "depends_on": "eval:doc.employment_status==\"Other\"",
+   "fieldname": "employment_type",
+   "fieldtype": "Autocomplete",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0648\u0638\u064a\u0641\u0647"
+  },
+  {
+   "bold": 1,
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u062c\u0646\u0633\u064a\u0647"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0645\u064a\u0644\u0627\u062f"
+  },
+  {
+   "fieldname": "contact_info_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Autocomplete",
+   "ignore_xss_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062a\u0641",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "secondary_phone_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062a\u0641 \u0627\u0644\u062b\u0627\u0646\u0648\u064a"
+  },
+  {
+   "fieldname": "email_copy",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0627\u0644\u0643\u062a\u0631\u0648\u0646\u064a"
+  },
+  {
+   "fieldname": "column_break_lrme",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0641\u0631\u062f\"",
+   "fieldname": "education_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u062a\u0639\u0644\u064a\u0645 "
+  },
+  {
+   "fieldname": "academic_achievement",
+   "fieldtype": "Select",
+   "label": "\u0627\u0644\u062a\u062d\u0635\u064a\u0644 \u0627\u0644\u0627\u0643\u0627\u062f\u064a\u0645\u064a",
+   "options": "\n\u0627\u0628\u062a\u062f\u0627\u0626\u064a\n\u0645\u062a\u0648\u0633\u0637\u0647\n\u0627\u0639\u062f\u0627\u062f\u064a\u0647\n\u062f\u0628\u0644\u0648\u0645\n\u0628\u0643\u0627\u0644\u0648\u0631\u064a\u0648\u0633\n\u062f\u0631\u0627\u0633\u0627\u062a \u0639\u0644\u064a\u0627\n\u0627\u062e\u0631\u0649"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062a\u062e\u0635\u0635"
+  },
+  {
+   "depends_on": "eval:doc.academic_achievement ==\"\u0627\u062e\u0631\u0649\"",
+   "fieldname": "other_academic_details",
+   "fieldtype": "Autocomplete",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u062a\u062d\u0635\u064a\u0644 \u0627\u0644\u0627\u0643\u0627\u062f\u064a\u0645\u064a (\u0627\u062e\u0631\u0649)"
+  },
+  {
+   "fieldname": "column_break_rxfe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0641\u0631\u062f\"",
+   "fieldname": "financial_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0645\u0627\u0644\u064a\u0647",
+   "options": "\n"
+  },
+  {
+   "fieldname": "income_source",
+   "fieldtype": "Select",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u062f\u062e\u0644",
+   "options": "\n\u0631\u0627\u062a\u0628\n\u0627\u062f\u062e\u0627\u0631 \u0634\u062e\u0635\u064a\n\u0639\u0648\u0627\u0626\u062f \u062a\u062c\u0627\u0631\u064a\u0647\n\u0627\u0633\u062a\u062b\u0645\u0627\u0631\u0627\u062a\n\u0627\u062e\u0631\u0649"
+  },
+  {
+   "fieldname": "column_break_mumo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.income_source==\"\u0627\u062e\u0631\u0649\"",
+   "fieldname": "other_income_source",
+   "fieldtype": "Autocomplete",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u062f\u062e\u0644 (\u0627\u062e\u0631\u0649)"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0641\u0631\u062f\"",
+   "fieldname": "address_info_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0639\u0646\u0648\u0627\u0646"
+  },
+  {
+   "fieldname": "residence_type",
+   "fieldtype": "Select",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0633\u0643\u0646",
+   "options": "\nPermanent\nRent"
+  },
+  {
+   "fieldname": "provence",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0645\u062d\u0627\u0641\u0638\u0647"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0645\u062f\u064a\u0646\u0647"
+  },
+  {
+   "fieldname": "column_break_hjmx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Autocomplete",
+   "label": "\u0645\u062d\u0644\u0647"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Autocomplete",
+   "label": "\u0632\u0642\u0627\u0642"
+  },
+  {
+   "fieldname": "house_no",
+   "fieldtype": "Autocomplete",
+   "label": "\u0628\u0646\u0627\u064a\u0647/\u062f\u0627\u0631"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0641\u0631\u062f\"",
+   "fieldname": "legal_info_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0647"
+  },
+  {
+   "fieldname": "civil_id_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0647\u0648\u064a\u0647 \u0627\u0644\u0627\u062d\u0648\u0627\u0644 \u0627\u0644\u0645\u062f\u0646\u064a\u0647"
+  },
+  {
+   "fieldname": "civil_id_issue_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0635\u062f\u0631\u0627"
+  },
+  {
+   "fieldname": "civil_id_expire_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0646\u0641\u0627\u0630"
+  },
+  {
+   "fieldname": "gender_certificate_id",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0634\u0647\u0627\u062f\u0647 \u0627\u0644\u062c\u0646\u0633\u064a\u0647",
+   "mandatory_depends_on": "eval:doc.civil_id_number != null"
+  },
+  {
+   "fieldname": "gender_certificate_issue_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0635\u062f\u0627\u0631",
+   "mandatory_depends_on": "eval:doc.civil_id_number != null"
+  },
+  {
+   "fieldname": "gender_certificate_expire_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0646\u0641\u0627\u0630",
+   "mandatory_depends_on": "eval:doc.civil_id_number != null"
+  },
+  {
+   "fieldname": "\u0647\u0648\u064a\u0647_\u0627\u0644\u0627\u062d\u0648\u0627\u0644",
+   "fieldtype": "Attach",
+   "label": "\u0647\u0648\u064a\u0647 \u0627\u0644\u0627\u062d\u0648\u0627\u0644"
+  },
+  {
+   "fieldname": "column_break_dsqv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "national_id_number",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0647 \u0627\u0644\u0645\u0648\u062d\u062f\u0647"
+  },
+  {
+   "fieldname": "national_id_issue_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0635\u062f\u0627\u0631"
+  },
+  {
+   "fieldname": "national_id_expire_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0646\u0641\u0627\u0630"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0628\u0637\u0627\u0642\u0647_\u0627\u0644\u0645\u0648\u062d\u062f\u0647",
+   "fieldtype": "Attach",
+   "label": "\u0627\u0644\u0628\u0637\u0627\u0642\u0647 \u0627\u0644\u0645\u0648\u062d\u062f\u0647"
+  },
+  {
+   "fieldname": "column_break_avsr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "passport_id",
+   "fieldtype": "Autocomplete",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0632"
+  },
+  {
+   "fieldname": "passport_id_issue_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0635\u062f\u0627\u0631"
+  },
+  {
+   "fieldname": "passport_id_expire_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0646\u0641\u0627\u0630"
+  },
+  {
+   "fieldname": "\u0627\u0644\u062c\u0648\u0627\u0632",
+   "fieldtype": "Attach",
+   "label": "\u0627\u0644\u062c\u0648\u0627\u0632"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0634\u0631\u0643\u0647\"",
+   "fieldname": "section_break_loss",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_bank_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0635\u0631\u0641"
+  },
+  {
+   "fieldname": "amount_of_loans_and_money_taken_from_the_bank",
+   "fieldtype": "Data",
+   "label": "\u0645\u062c\u0645\u0648\u0639 \u0645\u0628\u0644\u063a \u0627\u0644\u0642\u0631\u0648\u0636 \u0627\u0644\u0645\u0623\u062e\u0648\u0630\u0647 \u0645\u0646 \u0627\u0644\u0645\u0635\u0631\u0641"
+  },
+  {
+   "fieldname": "amount_of_yearly_transactions",
+   "fieldtype": "Data",
+   "label": "\u0643\u0645\u064a\u0647 \u0627\u0644\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0647 \u0633\u0646\u0648\u064a\u0627\u064b"
+  },
+  {
+   "fieldname": "column_break_kica",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_first_transaction_amount",
+   "fieldtype": "Data",
+   "label": "\u0645\u0628\u0644\u063a \u0627\u0648\u0644 \u0639\u0645\u0644\u064a\u0647 \u0645\u0627\u0644\u064a\u0647"
+  },
+  {
+   "fieldname": "company_first_transaction_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0648\u0644 \u0639\u0645\u0644\u064a\u0647 \u0645\u0627\u0644\u064a\u0647"
+  },
+  {
+   "fieldname": "nature_of_work_with_the_bank",
+   "fieldtype": "Data",
+   "label": "\u0637\u0628\u064a\u0639\u0647 \u0627\u0644\u0639\u0645\u0644 \u0645\u0639 \u0627\u0644\u0645\u0635\u0631\u0641"
+  },
+  {
+   "depends_on": "eval:doc.customer_type==\"\u0641\u0631\u062f\"",
+   "fieldname": "bank_info_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0645\u0635\u0631\u0641"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0635\u0631\u0641"
+  },
+  {
+   "fieldname": "money_source",
+   "fieldtype": "Autocomplete",
+   "label": "\u0645\u0635\u062f\u0631 \u0627\u0644\u0627\u0645\u0648\u0627\u0644"
+  },
+  {
+   "fieldname": "transaction_amount",
+   "fieldtype": "Autocomplete",
+   "label": "\u0643\u0645\u064a\u0647 \u0627\u0644\u0639\u0645\u0644\u064a\u0647 \u0627\u0644\u0645\u0627\u0644\u064a\u0647"
+  },
+  {
+   "fieldname": "first_transaction_date",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0648\u0644 \u0639\u0645\u0644\u064a\u0647 \u0645\u0627\u0644\u064a\u0647"
+  },
+  {
+   "fieldname": "column_break_pgpq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-30 20:44:15.910325",
+ "modified_by": "Administrator",
+ "module": "law managment",
+ "name": "Customers",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
