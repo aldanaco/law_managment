@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-13 01:30:10.686559",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name_ar",
+  "column_break_rasw",
+  "name_en"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_ar",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_rasw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_en",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0627\u0644\u0627\u0633\u0645 \u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0627\u0646\u0643\u0644\u064a\u0632\u064a\u0629",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-13 01:43:07.210462",
+ "modified_by": "Administrator",
+ "module": "law managment",
+ "name": "competent authority",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "name_ar",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name_ar"
+}
