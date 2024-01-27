@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Payment-{MM}",
+ "autoname": "format:Payment-{MM}-{####}",
  "creation": "2024-01-22 18:36:15.846435",
  "default_view": "List",
  "doctype": "DocType",
@@ -41,7 +41,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-01-22 19:57:38.875769",
+ "modified": "2024-01-23 17:13:55.231286",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "Law Case Expenses",

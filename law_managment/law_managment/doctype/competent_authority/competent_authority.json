@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{name_ar}-{#}",
  "creation": "2024-01-13 01:30:10.686559",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -31,10 +32,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-13 01:43:07.210462",
+ "modified": "2024-01-26 20:26:48.778870",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "competent authority",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

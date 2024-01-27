@@ -6,9 +6,23 @@ frappe.ui.form.on('law cases', {
         // Call the function initially to set the sum
         calculateAndSetSumPayment(frm);
         calculateAndSetSum(frm);
+        calculateAndSetRemaining(frm);
     },
 });
-
+frappe.ui.form.on('law cases', {
+    casefees: function(frm) {
+        // Triggered when the 'total_expenses' field is changed
+        calculateAndSetRemaining(frm);
+    },
+    expenses: function(frm) {
+        // Triggered when the 'total_payments' field is changed
+        calculateAndSetRemaining(frm);
+    },
+    payments: function(frm) {
+        // Triggered when the 'casefees' field is changed
+        calculateAndSetRemaining(frm);
+    },
+});
 frappe.ui.form.on('Law Case Payment', {
     form_render: function(frm) {
         // Triggered when the 'expensetable' child table is rendered
@@ -58,4 +72,15 @@ function calculateAndSetSum(frm) {
 
     // set the sum in a field named 'expenses'
     frm.set_value('expenses', totalAmount);
+}
+function calculateAndSetRemaining(frm) {
+    var totalExpenses = frm.doc.expenses || 0;
+    var totalPayments = frm.doc.payments || 0;
+    var caseFees = frm.doc.casefees || 0;
+
+    // calculate remaining amount
+    var remainingAmount = caseFees + totalExpenses - totalPayments;
+
+    // set the remaining amount in the field named 'caseoutstanding'
+    frm.set_value('caseoutstanding', remainingAmount);
 }

@@ -1,0 +1,35 @@
+{
+ "add_total_row": 1,
+ "columns": [
+  {
+   "fieldname": "case",
+   "fieldtype": "Check",
+   "label": "cases",
+   "width": 0
+  }
+ ],
+ "creation": "2024-01-23 16:39:18.428646",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "",
+ "letterhead": null,
+ "modified": "2024-01-23 16:49:51.713867",
+ "modified_by": "Administrator",
+ "module": "law managment",
+ "name": "lawCaseAcc_T",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "law cases",
+ "report_name": "lawCaseAcc_T",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

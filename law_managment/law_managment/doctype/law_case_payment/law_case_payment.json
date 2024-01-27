@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Payment-{MM}",
+ "autoname": "format:Payment-{MM}-{####}",
  "creation": "2024-01-22 17:58:30.187651",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -30,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-01-22 18:00:14.635922",
+ "modified": "2024-01-26 19:57:41.727971",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "Law Case Payment",
