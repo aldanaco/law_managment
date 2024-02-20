@@ -52,7 +52,8 @@
   "agreementdate",
   "claimamount",
   "advisor_attribution_date",
-  "notes"
+  "notes",
+  "casecustomers"
  ],
  "fields": [
   {
@@ -338,12 +339,19 @@
    "fieldname": "rivalname",
    "fieldtype": "Autocomplete",
    "label": "\u0627\u0633\u0645 \u0627\u0644\u062e\u0635\u0645"
+  },
+  {
+   "fieldname": "casecustomers",
+   "fieldtype": "Table MultiSelect",
+   "label": "\u0627\u0644\u0639\u0645\u0644\u0627\u0621",
+   "options": "Case Customers",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2024-02-04 20:15:30.211504",
+ "modified": "2024-02-12 22:07:59.716321",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "law cases",
