@@ -1,42 +1,44 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{name_ar}-{#}",
- "creation": "2024-01-13 01:30:10.686559",
+ "creation": "2024-02-25 21:05:12.977486",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "name_ar",
-  "column_break_rasw",
-  "name_en"
+  "section_break_rajp",
+  "hearing_name",
+  "amended_from"
  ],
  "fields": [
   {
-   "fieldname": "name_ar",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "\u0627\u0644\u0627\u0633\u0645 \u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-   "reqd": 1
+   "fieldname": "section_break_rajp",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "column_break_rasw",
-   "fieldtype": "Column Break"
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Hearing Type",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   },
   {
-   "fieldname": "name_en",
+   "fieldname": "hearing_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "\u0627\u0644\u0627\u0633\u0645 \u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0627\u0646\u0643\u0644\u064a\u0632\u064a\u0629",
+   "label": "\u0627\u0633\u0645 \u0646\u0648\u0639 \u0627\u0644\u062c\u0644\u0633\u0629",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-02-25 21:55:55.013020",
+ "modified": "2024-02-25 21:06:47.400676",
  "modified_by": "Administrator",
  "module": "law managment",
- "name": "competent authority",
- "naming_rule": "Expression",
+ "name": "Hearing Type",
  "owner": "Administrator",
  "permissions": [
   {
@@ -49,17 +51,20 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "submit": 1,
    "write": 1
   },
   {
    "create": 1,
+   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "lawyer",
-   "share": 1
+   "role": "company management",
+   "share": 1,
+   "write": 1
   },
   {
    "create": 1,
@@ -79,15 +84,12 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "company management",
+   "role": "lawyer",
    "share": 1,
    "write": 1
   }
  ],
- "search_fields": "name_ar",
- "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "title_field": "name_ar"
+ "states": []
 }
