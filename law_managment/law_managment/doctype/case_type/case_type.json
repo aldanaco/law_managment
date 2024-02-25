@@ -12,7 +12,8 @@
   "column_break_bkdn",
   "name_en",
   "column_break_qzdc",
-  "\u0627\u064a\u0627\u0645_\u0627\u0644\u062a\u0646\u0628\u064a\u0647"
+  "\u0627\u064a\u0627\u0645_\u0627\u0644\u062a\u0646\u0628\u064a\u0647",
+  "amended_from"
  ],
  "fields": [
   {
@@ -42,12 +43,22 @@
    "fieldname": "\u0627\u064a\u0627\u0645_\u0627\u0644\u062a\u0646\u0628\u064a\u0647",
    "fieldtype": "Int",
    "label": "\u0627\u064a\u0627\u0645 \u0627\u0644\u062a\u0646\u0628\u064a\u0647"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "case type",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-01-11 20:40:32.077004",
+ "modified": "2024-02-25 21:55:07.763251",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "case type",
@@ -63,6 +74,39 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "legal management",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "company management",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "lawyer",
    "share": 1,
    "write": 1
   }
