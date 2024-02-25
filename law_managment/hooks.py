@@ -221,14 +221,7 @@ app_license = "mit"
 # ]
 
 fixtures = [
-    {
-        "dt": "DocType",
-        "filters": [
-            [
-                "name", "like", "%"  # Use "%" as a wildcard to include all doctypes
-            ]
-        ]
-    }
+    "Custom Field"
 ]
 
 
