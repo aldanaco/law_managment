@@ -221,7 +221,8 @@ app_license = "mit"
 # ]
 
 fixtures = [
-    "Custom Field"
+    "Custom HTML Block",
+    "Workspace"
 ]
 
 
