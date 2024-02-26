@@ -1,0 +1,134 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/tasks/view/calendar/default\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #2896FF22;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"rounded-circle\" src=\"https://cdn-icons-png.flaticon.com/512/906/906334.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إدارة المهام</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-21 22:36:31.057764",
+  "name": "tasks",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/crm\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #3C87D022;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.flaticon.com/512/3534/3534063.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">التقارير</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-19 22:07:31.177211",
+  "name": "cases reports",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/accounting\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #FCD77022;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.flaticon.com/128/1875/1875501.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">الحسابات</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 21:24:26.885985",
+  "name": "Accounting",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/law-cases/new\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #4F576C22;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.freepik.com/512/4409/4409415.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إضافة قضية</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 20:03:59.833385",
+  "name": "Add Case",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/crm\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #4F576C22;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"img-fluid rounded-circle\" src=\"https://cdn-icons-png.flaticon.com/512/8021/8021001.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إدارة العملاء</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-20 18:54:49.461654",
+  "name": "CRM",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/hr\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #26BEBE22;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"img-fluid rounded-circle\" src=\"https://cdn-icons-png.flaticon.com/512/306/306432.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إدارة الموظفين</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-20 18:53:25.095691",
+  "name": "HR",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/إدارة-القضايا-القانونية\" class=\"text-decoration-none\">\n        <div class=\"card\" style=\"background-color: #6fd4fc22\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\" rounded-circle\" src=\"https://www.womenhelpingwomen.org/wp-content/uploads/2016/11/Court-Icon.png\" width=\"80\" height=\"80\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إدارة القضايا</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 21:23:34.855993",
+  "name": "Law Cases",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/law-cases\" class=\"text-decoration-none\" >\n        <div class=\"card\" style=\"background-color: #5793FB33;\">\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.flaticon.com/128/2821/2821739.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">كل القضايا</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-22 20:53:40.062333",
+  "name": "All Cases",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/employee\" class=\"text-decoration-none\" >\n        <div class=\"card\" >\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.flaticon.com/128/4205/4205906.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">جميع الموظفين</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 20:53:10.213028",
+  "name": "All Employees",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/customer\" class=\"text-decoration-none\" >\n        <div class=\"card\" >\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://www.freeiconspng.com/thumbs/customers-icon/customers-icon-3.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">كل العملاء</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 21:14:15.154912",
+  "name": "All Customers",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/employee/new\" class=\"text-decoration-none\" >\n        <div class=\"card\" >\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.flaticon.com/128/8377/8377219.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إضافة موظف</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 20:34:39.319593",
+  "name": "Add Employee",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-{INTEGRITY_STRING}\" crossorigin=\"anonymous\"></script>\n    <title></title>\n</head>\n<body>\n    <a href=\"/app/customer/new\" class=\"text-decoration-none\" >\n        <div class=\"card\" >\n            <div class=\"card-body\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col\">\n                        <img class=\"\" src=\"https://cdn-icons-png.flaticon.com/128/8377/8377219.png\" style=\"width:80px !important; height:80px !important;\">\n                    </div>\n                    <div class=\"col d-flex justify-content-center h-100 flex-column\">\n                        <h4 class=\"card-title\">إضافة عميل</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </a>\n</body>\n</html>\n",
+  "modified": "2024-02-25 21:09:01.324625",
+  "name": "Add Customer",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ }
+]
