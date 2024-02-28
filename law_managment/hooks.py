@@ -222,7 +222,13 @@ app_license = "mit"
 
 fixtures = [
     "Custom HTML Block",
-    "Workspace"
+    "Workspace",
+    {
+        "dt": "Custom Field",
+        "filters": [
+            [
+                "dt", "=", "law cases"  # Use "%" as a wildcard to include all doctypes
+            ]
+        ]
+    }
 ]
-
-
