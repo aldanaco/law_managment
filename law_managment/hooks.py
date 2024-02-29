@@ -222,6 +222,7 @@ app_license = "mit"
 
 fixtures = [
     "Custom HTML Block",
+    "Dashboard Chart",
     "Workspace",
     {
         "dt": "Custom Field",

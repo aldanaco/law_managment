@@ -1,7 +1,7 @@
 {
  "charts": [],
  "content": "[{\"id\":\"fUfAvbjAEu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0642\u0636\u0627\u064a\u0627 \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0629</span>\",\"col\":12}},{\"id\":\"1W9Mo07Y7X\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Add Case\",\"col\":4}},{\"id\":\"8lZ3x8dpPA\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"cases reports\",\"col\":4}},{\"id\":\"ITb71jivkx\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"All Cases\",\"col\":4}}]",
- "creation": "2024-02-13 19:28:04.682534",
+ "creation": "2024-02-29 21:03:38.053943",
  "custom_blocks": [
   {
    "custom_block_name": "All Cases",
@@ -26,12 +26,11 @@
  "is_hidden": 0,
  "label": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0642\u0636\u0627\u064a\u0627 \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0629",
  "links": [],
- "modified": "2024-02-25 18:37:55.186680",
+ "modified": "2024-02-29 21:08:01.716906",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0642\u0636\u0627\u064a\u0627 \u0627\u0644\u0642\u0627\u0646\u0648\u0646\u064a\u0629",
  "number_cards": [],
- "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
