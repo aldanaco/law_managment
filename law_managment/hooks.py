@@ -221,6 +221,7 @@ app_license = "mit"
 # ]
 
 fixtures = [
+
     "Custom HTML Block",
     "Dashboard Chart",
     "Workspace",
@@ -229,6 +230,7 @@ fixtures = [
         "filters": [
             [
                 "dt", "=", "law cases"  # Use "%" as a wildcard to include all doctypes
+
             ]
         ]
     }
