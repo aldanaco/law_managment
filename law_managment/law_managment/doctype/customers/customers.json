@@ -562,7 +562,7 @@
    "fieldname": "type_co",
    "fieldtype": "Select",
    "label": "\u0646\u0648\u0639 \u0627\u0644\u0634\u0631\u0643\u0629",
-   "options": "\n\u0634\u0631\u0643\u0629 \u0639\u0631\u0627\u0642\u064a\u0629\n\u0634\u0631\u0643\u0629 \u0627\u0645\u0646\u064a\u0629"
+   "options": "\n\u0634\u0631\u0643\u0629 \u0639\u0631\u0627\u0642\u064a\u0629\n\u0634\u0631\u0643\u0629 \u0627\u062c\u0646\u0628\u064a\u0629"
   },
   {
    "depends_on": "eval:doc.type_co==\"\u0634\u0631\u0643\u0629 \u0639\u0631\u0627\u0642\u064a\u0629\"",
@@ -668,7 +668,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-29 15:17:38.372734",
+ "modified": "2024-09-29 15:58:46.779983",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "Customers",
