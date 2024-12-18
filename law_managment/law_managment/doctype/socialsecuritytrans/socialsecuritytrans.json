@@ -6,19 +6,13 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "finishing",
+  "status",
   "type",
   "person",
+  "files",
   "\u0645\u0644\u0627\u062d\u0638\u0627\u062a"
  ],
  "fields": [
-  {
-   "fieldname": "finishing",
-   "fieldtype": "Select",
-   "label": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0627\u0646\u062c\u0627\u0632",
-   "options": "\u0642\u064a\u062f \u0627\u0644\u0627\u0646\u062c\u0627\u0632\n\u0645\u0646\u062c\u0632\n\u0645\u062a\u0648\u0642\u0641",
-   "reqd": 1
-  },
   {
    "fieldname": "type",
    "fieldtype": "Select",
@@ -36,13 +30,26 @@
    "fieldname": "person",
    "fieldtype": "Link",
    "label": "\u0627\u0644\u0645\u0648\u0643\u0644 \u0627\u0648 \u0627\u0644\u0634\u0631\u0643\u0629",
-   "options": "Customers",
+   "options": "Case Customers",
    "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0627\u0646\u062c\u0627\u0632",
+   "options": "\u0642\u064a\u062f \u0627\u0644\u0627\u0646\u062c\u0627\u0632\n\u0645\u0646\u062c\u0632\n\u0645\u062a\u0648\u0642\u0641",
+   "reqd": 1
+  },
+  {
+   "fieldname": "files",
+   "fieldtype": "Table",
+   "label": "\u0627\u0636\u0627\u0641\u0629 \u0645\u0644\u0641\u0627\u062a",
+   "options": "agreement attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-02 14:29:47.288922",
+ "modified": "2024-12-18 04:03:40.059988",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "SocialSecurityTrans",
