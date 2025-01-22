@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:CASE-{clientid}-{status}-{MM}-{DD}",
+ "autoname": "format:CASE-{clientid}-{casestatus}-{status}-{MM}-{DD}",
  "creation": "2023-12-28 21:18:56.035493",
  "default_view": "List",
  "doctype": "DocType",
@@ -348,7 +348,7 @@
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2025-01-22 20:19:33.938183",
+ "modified": "2025-01-22 20:21:00.710564",
  "modified_by": "Administrator",
  "module": "law managment",
  "name": "law cases",
