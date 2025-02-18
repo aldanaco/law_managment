@@ -2655,13 +2655,6 @@
     "parent": "Home",
     "parentfield": "custom_blocks",
     "parenttype": "Workspace"
-   },
-   {
-    "custom_block_name": "OtherServices",
-    "label": "OtherServices",
-    "parent": "Home",
-    "parentfield": "custom_blocks",
-    "parenttype": "Workspace"
    }
   ],
   "docstatus": 0,
